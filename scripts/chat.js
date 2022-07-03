@@ -60,7 +60,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "Please Enter A Message";
+        userText = "";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';

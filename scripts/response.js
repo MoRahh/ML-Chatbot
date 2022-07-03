@@ -19,6 +19,8 @@ function getBotResponse(input) {
         return "I'm Mohammed, Here to help you with anything.";
     } else if(input == "how old are you") {
         return "I dont have a specific age, I'm just a bot but i was made on 2nd of july by Mohammed";
+    } else if(input == "") {
+        return "Please enter a valid message";
     } else {
         return "Try asking something else!";
     }
