@@ -23,6 +23,105 @@
                 "The weather is sunny today.",
                 "There is a 50% chance of rain tomorrow."
             ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "see you later",
+                "goodbye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Have a nice day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "appreciate it"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Glad I could help!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you?",
+                "what's your age?"
+            ],
+            "responses": [
+                "I am a computer program, so I don't have an age!",
+                "I was just created, so I am brand new!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what's your name?",
+                "who are you?"
+            ],
+            "responses": [
+                "My name is Chatbot!",
+                "I am Chatbot!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "can you help me?",
+                "what can you do?",
+                "how can you assist me?"
+            ],
+            "responses": [
+                "I can help you with a variety of tasks. What do you need help with?",
+                "I can assist you with a number of things. What do you need help with?"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "tell me a joke",
+                "make me laugh",
+                "joke time"
+            ],
+            "responses": [
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "Why couldn't the bicycle stand up by itself? Because it was two-tired!",
+                "What do you call a fake noodle? An impasta!"
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "play some music",
+                "what's your favorite song?",
+                "who is your favorite artist?"
+            ],
+            "responses": [
+                "I don't have a favorite song, but I can recommend some great playlists on Spotify!",
+                "I am a language model, so I don't have personal preferences, but I can play some music for you if you'd like!",
+                "I don't have a favorite artist, but I can recommend some great musicians for you!"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "what's the latest news?",
+                "tell me some news",
+                "what's happening in the world?"
+            ],
+            "responses": [
+                "Here are some recent news headlines: ...",
+                "The top stories today are: ...",
+                "Breaking news: ..."
+            ]
         }
     ]
 }
