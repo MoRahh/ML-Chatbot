@@ -1,0 +1,28 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey"
+            ],
+            "responses": [
+                "Hi there!",
+                "Hello!",
+                "Hey!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "what's the weather like today?",
+                "will it rain tomorrow?"
+            ],
+            "responses": [
+                "The weather is sunny today.",
+                "There is a 50% chance of rain tomorrow."
+            ]
+        }
+    ]
+}
